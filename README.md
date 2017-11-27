@@ -8,9 +8,11 @@
 [![Build Status][ico-circleci]][link-circleci]
 [![StyleCI][ico-styleci]][link-styleci]
 
-Generate a beautiful HTML résumé based on a JSON file. You can use [the pre-built templates]
-or write your own with HTML and CSS. Resume Cli was inspired by (and loosely based on)
-[JSON Resume](https://jsonresume.org/).
+Generate a beautiful HTML résumé based on a JSON file. You can use [the pre-built templates],
+download [one of the readily available ones](https://packagist.org/?p=0&hFR%5Btype%5D%5B0%5D=resume-cli-theme), or [write your own] with HTML and CSS. 
+
+Resume CLI was inspired by (and loosely based on) [JSON Resume](https://jsonresume.org/), and
+built using [Laravel Zero](https://github.com/laravel-zero/laravel-zero).
 
 
 ## Index
