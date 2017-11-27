@@ -14,7 +14,7 @@
          verbose="true"
 >
     <testsuites>
-        <testsuite name="Resume Cli Test Suite">
+        <testsuite name="Resume CLI Test Suite">
             <directory suffix="Test.php">./tests/Integration</directory>
         </testsuite>
     </testsuites>
