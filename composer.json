@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "Sven\\ResumeCli\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Sven\\ResumeCli\\Tests\\": "tests/"
         }
     },
     "config": {

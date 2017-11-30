@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Commands;
+namespace Sven\ResumeCli\Commands;
 
 use LaravelZero\Framework\Commands\Command;
 use Symfony\Component\Console\Input\InputArgument;
