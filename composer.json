@@ -15,6 +15,7 @@
         "laravel-zero/framework": "^4.0"
     },
     "require-dev": {
+        "mockery/mockery": "^1.0",
         "phpunit/phpunit": "~6.4"
     },
     "autoload": {
@@ -24,7 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "ResumeCli\\Tests\\": "tests/"
         }
     },
     "config": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace ResumeCli\Tests;
 
 use LaravelZero\Framework\Application;
 use LaravelZero\Framework\Contracts\Application as ApplicationContract;
