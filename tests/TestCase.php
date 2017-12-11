@@ -1,6 +1,6 @@
 <?php
 
-namespace Sven\ResumeCli\Tests;
+namespace Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

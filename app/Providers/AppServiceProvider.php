@@ -1,6 +1,6 @@
 <?php
 
-namespace Sven\ResumeCli\Providers;
+namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
