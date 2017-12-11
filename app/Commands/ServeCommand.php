@@ -41,17 +41,16 @@ class ServeCommand extends Command
             exit(1);
         }
 
-        $port = $this->option('port');
-        $host = $this->option('host');
-
         chdir($directory);
 
         $this->info(
-            sprintf('Resume preview started: http://%s:%s', $host, $port)
+            sprintf('Resume preview started: http://%s:%s', $this->host(), $this->port())
         );
         $this->info('Stop the server with CTRL+C.');
 
-        passthru($this->command($host, $port));
+        passthru($this->command($this->host(), $this->port()), $exitCode);
+
+        exit($exitCode);
     }
 
     /**
@@ -88,5 +87,21 @@ class ServeCommand extends Command
             ['host', null, InputOption::VALUE_OPTIONAL, 'The hostname to use to preview your résumé.', '127.0.0.1'],
             ['port', null, InputOption::VALUE_OPTIONAL, 'The port to serve the webserver on.', 8000],
         ];
+    }
+
+    /**
+     * @return string
+     */
+    protected function host(): string
+    {
+        return $this->option('host');
+    }
+
+    /**
+     * @return string
+     */
+    protected function port(): string
+    {
+        return $this->option('port');
     }
 }
