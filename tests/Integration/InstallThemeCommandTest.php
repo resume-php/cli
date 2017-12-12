@@ -2,7 +2,7 @@
 
 namespace ResumeCli\Tests\Integration;
 
-use App\Commands\InstallThemeCommand;
+use ResumeCli\Commands\InstallThemeCommand;
 use LaravelZero\Framework\Contracts\Providers\Composer;
 use Mockery as m;
 use ResumeCli\Tests\TestCase;
