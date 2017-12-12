@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Commands;
+namespace ResumeCli\Commands;
 
 use LaravelZero\Framework\Commands\Command;
 use LaravelZero\Framework\Contracts\Providers\Composer;

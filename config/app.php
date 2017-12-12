@@ -38,6 +38,6 @@ return [
      * Enjoy all the power of Laravel on your console.
      */
     'providers' => [
-        App\Providers\AppServiceProvider::class,
+        ResumeCli\Providers\AppServiceProvider::class,
     ],
 ];
