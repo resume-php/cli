@@ -7,7 +7,7 @@ return [
     /*
      * Here goes the application name.
      */
-    'name' => 'Laravel Zero',
+    'name' => 'Resume',
 
     /*
      * Here goes the application version.
