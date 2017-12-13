@@ -1,6 +1,6 @@
 <?php
 
-namespace ResumeCli\Providers;
+namespace Resume\Cli\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

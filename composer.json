@@ -1,5 +1,5 @@
 {
-    "name": "sven/resume-cli",
+    "name": "resume/cli",
     "description": "Generate a beautiful HTML résumé based on a JSON file.",
     "keywords": ["resume", "cv", "cli", "command", "jsonresume", "json"],
     "license": "MIT",
@@ -12,7 +12,9 @@
     ],
     "require": {
         "php": ">=7.1",
-        "laravel-zero/framework": "^4.0"
+        "laravel-zero/framework": "^4.0",
+        "resume/installer-plugin": "dev-master",
+        "resume/default-theme": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -20,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ResumeCli\\": "app/"
+            "Resume\\Cli\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ResumeCli\\Tests\\": "tests/"
+            "Resume\\Cli\\Tests\\": "tests/"
         }
     },
     "config": {

@@ -13,14 +13,4 @@ require __DIR__.'/autoload.php';
 |
 */
 
-$container = new class extends LaravelZero\Framework\Container {
-    /**
-     * @return string
-     */
-    public function getNamespace(): string
-    {
-        return 'ResumeCli';
-    }
-};
-
-(new LaravelZero\Framework\Application($container))->run();
+(new LaravelZero\Framework\Application)->run();

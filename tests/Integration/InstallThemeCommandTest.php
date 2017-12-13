@@ -1,11 +1,11 @@
 <?php
 
-namespace ResumeCli\Tests\Integration;
+namespace Resume\Cli\Tests\Integration;
 
-use ResumeCli\Commands\InstallThemeCommand;
+use Resume\Cli\Commands\InstallThemeCommand;
 use LaravelZero\Framework\Contracts\Providers\Composer;
 use Mockery as m;
-use ResumeCli\Tests\TestCase;
+use Resume\Cli\Tests\TestCase;
 
 class InstallThemeCommandTest extends TestCase
 {
