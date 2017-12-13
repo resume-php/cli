@@ -116,7 +116,7 @@ $ resume serve
 $ resume serve public
 ```
 
-This will start [PHP's default built-in webserver](https://secure.php.net/manual/en/features.commandline.webserver.php)
+This will start [PHP's built-in webserver](https://secure.php.net/manual/en/features.commandline.webserver.php)
 on its default port (`8000`). To change the port it's served on, use the `--port` option:
 
 ```bash
