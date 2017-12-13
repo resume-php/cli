@@ -12,15 +12,15 @@ class InstallThemeCommandTest extends TestCase
     /** @test */
     function it_requires_the_right_package()
     {
-        $mock = m::spy(Composer::class);
+        $composer = m::spy(Composer::class);
 
-        app()->instance(Composer::class, $mock);
+        app()->instance(Composer::class, $composer);
 
         $this->call(InstallThemeCommand::class, [
             'theme' => 'test/resume-theme',
         ]);
 
-        $mock->shouldHaveReceived('require')
+        $composer->shouldHaveReceived('require')
             ->with('test/resume-theme');
 
         $this->assertContains('test/resume-theme', $this->app->output());
