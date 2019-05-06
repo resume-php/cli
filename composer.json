@@ -3,6 +3,7 @@
     "description": "Generate a beautiful HTML résumé based on a JSON file.",
     "keywords": ["resume", "cv", "cli", "command", "jsonresume", "json"],
     "license": "MIT",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Sven Luijten",
@@ -13,8 +14,8 @@
     "require": {
         "php": ">=7.1",
         "laravel-zero/framework": "^4.0",
-        "resume/installer-plugin": "dev-master",
-        "resume/default-theme": "dev-master"
+        "resume/installer-plugin": "*",
+        "resume/default-theme": "*"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -33,5 +34,15 @@
     "config": {
         "sort-packages": true
     },
-    "bin": ["resume"]
+    "bin": ["resume"],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../installer-plugin"
+        },
+        {
+            "type": "path",
+            "url": "../default-theme"
+        }
+    ]
 }
